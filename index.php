@@ -70,7 +70,23 @@ try {
                     </tbody>
                 </table>
             </div>
-            <div id="tab2" class="tab-pane">sample2</div>
+            <div id="tab2" class="tab-pane">
+            <form action="./insert.php" method="POST">
+                    <div class="form-group">
+                        <label for="id">ID</label>
+                        <input class="form-control" type="text" name="id" id="id">
+                    </div>
+                    <div class="form-group">
+                        <label for="id">name</label>
+                        <input class="form-control" type="text" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="id">Age</label>
+                        <input class="form-control" type="text" name="age" id="age">
+                    </div>
+                    <buttun type="submit" class="btn btn-primary">Insert</buttun>
+                </form>
+            </div>
             <div id="tab3" class="tab-pane">sample3</div>
             <div id="tab4" class="tab-pane">sample4</div>
         </div>
